@@ -177,16 +177,20 @@
                   android:orientation="horizontal"
                   android:gravity="center">
 
-      <Button style="@style/ResultButton"
+      <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
               android:visibility="gone"/>
 
-      <Button style="@style/ResultButton"
+      <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
               android:visibility="gone"/>
 
-      <Button style="@style/ResultButton"
+      <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
               android:visibility="gone"/>
 
-      <Button style="@style/ResultButton"
+      <Button android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
               android:visibility="gone"/>
 
     </LinearLayout>
